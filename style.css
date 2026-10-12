@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(72, 59, 48);
+}
+
+header {
+    width: 55rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #2e2b27;
+    padding:16px;
+    border: rgb(27, 26, 25);
+    margin: 0 0 32px 50px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+}
+
+.headp {
+    color:beige;
+}
+
+a {
+    color:coral;
+}
+
+a:hover {
+    color:rgb(243, 173, 165);
+}
+
+h1 {
+    color:burlywood;
+    font-family: verdana;
+    
+}
+
+h2 {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+h2, h3 {
+    text-align: center;
+    font-family: verdana;
+}
+
+footer {
+    background-color: bisque;
+}
+
+p {
+    text-align: center;
+    font-family: courier;
+}
+
+.contact {
+    text-align: left;
+}
+
+.menuitems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.menulayout {
+    background-color:rgba(128, 90, 53, 0.486);
+    border: 4px black;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin: auto;
+}
